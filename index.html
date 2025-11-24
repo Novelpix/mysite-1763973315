@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteCraft Completeur Pro - Votre Partenaire Digital</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navigation></custom-navigation>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section bg-gradient-to-br from-blue-600 to-purple-700 text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+                    Donnez Vie à Votre Vision Digitale
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Nous transformons vos idées en expériences web exceptionnelles avec créativité et expertise technique.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/services" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300 transform hover:scale-105">
+                        Découvrir nos services
+                    </a>
+                    <a href="/contact" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
+                        Nous contacter
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+                    Nos Domaines d'Expertise
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="service-card group p-6 rounded-xl bg-gray-50 hover:bg-blue-50 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors">
+                            <i data-feather="code" class="text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-800">Développement Web</h3>
+                        <p class="text-gray-600">Création de sites modernes, rapides et optimisés pour tous les appareils.</p>
+                    </div>
+                    
+                    <div class="service-card group p-6 rounded-xl bg-gray-50 hover:bg-purple-50 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors">
+                            <i data-feather="layout" class="text-purple-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-800">Design UX/UI</h3>
+                        <p class="text-gray-600">Interfaces intuitives qui captivent vos utilisateurs et boostent l'engagement.</p>
+                    </div>
+                    
+                    <div class="service-card group p-6 rounded-xl bg-gray-50 hover:bg-green-50 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-200 transition-colors">
+                            <i data-feather="trending-up" class="text-green-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-800">Optimisation SEO</h3>
+                        <p class="text-gray-600">Augmentez votre visibilité et atteignez votre public cible efficacement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="py-16 bg-gradient-to-r from-gray-800 to-gray-900 text-white">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="stat-item">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">150+</div>
+                        <div class="text-blue-300">Projets Réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">98%</div>
+                        <div class="text-purple-300">Clients Satisfaits</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">3+</div>
+                        <div class="text-green-300">Années d'Expérience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="text-3xl md:text-4xl font-bold mb-2">24/7</div>
+                        <div class="text-yellow-300">Support Disponible</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navigation.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
